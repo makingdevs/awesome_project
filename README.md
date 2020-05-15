@@ -14,3 +14,7 @@
 - Elm
 
 ## Collaborators
+
+- José Juan Reyes Zuñiga
+- Lia Zoe
+- Guie Cruz
