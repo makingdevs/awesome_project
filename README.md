@@ -8,4 +8,9 @@
 
 ## Tech Stack
 
+- Lisp
+- Smalltalk
+- Amber
+- Elm
+
 ## Collaborators
