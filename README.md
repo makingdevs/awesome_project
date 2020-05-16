@@ -13,6 +13,9 @@
 - Smalltalk
 - Elm
 - ReasonML
+- Docker
+- Linux
+- nginx
 
 ## Collaborators
 
