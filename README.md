@@ -6,20 +6,20 @@
 - An invitation for download the app
 - A contact form
 - Another great feature
+- A code editor
+- A SSH Tunnel
 
 ## Tech Stack
 
-- Lisp
-- Smalltalk
+- LFE
 - Elm
 - ReasonML
 - Docker
-- Linux
+- Unix
 - nginx
 
 ## Collaborators
 
-- José Juan Reyes Zuñiga
 - Lia Zoe
 - Guie Cruz
 - Carlos Gibrán
