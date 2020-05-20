@@ -1,4 +1,4 @@
-require './lib/arithmetic'
+require './lib/arithmetic_neodevelop'
 
 RSpec.describe Arithmetic do
 
