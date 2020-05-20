@@ -1,3 +1,3 @@
-class Aritmethic
+class Arithmetic
 
 end
