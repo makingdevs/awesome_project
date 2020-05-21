@@ -1,0 +1,3 @@
+class Aritmethic
+
+end
