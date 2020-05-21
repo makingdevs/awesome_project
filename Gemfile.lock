@@ -36,6 +36,7 @@ DEPENDENCIES
   rake
   rspec
   rspec-core
+  rspec-support
   sinatra
 
 BUNDLED WITH
