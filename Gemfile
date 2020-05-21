@@ -1,6 +1,7 @@
 source "https://rubygems.org"
 
+gem "rake"
 gem "sinatra"
 gem "rspec"
 gem "rspec-core"
-gem "rake"
+gem "rspec-support"
