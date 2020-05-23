@@ -10,7 +10,7 @@ pipeline {
     stage("Configure application"){
       steps {
         sh "echo '1'"
-        sh "rbenv"
+        sh "~/.rbenv/bin/rbenv"
         // sh "gem install bundler"
         // sh "bundle install"
       }
