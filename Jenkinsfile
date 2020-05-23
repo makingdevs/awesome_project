@@ -14,7 +14,7 @@ pipeline {
         sh "./build.sh"
       }
     }
-    stage("Configure application"){
+    stage("Test application"){
       steps {
         sh "echo '2'"
         sh "chmod +x test.sh"
