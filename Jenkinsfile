@@ -21,5 +21,12 @@ pipeline {
         sh "./test.sh"
       }
     }
+    stage("Deploy application"){
+      steps {
+        sh "echo '3'"
+        sh "chmod +x deploy.sh"
+        sh "./deploy.sh"
+      }
+    }
   }
 }
