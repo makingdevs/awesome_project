@@ -7,7 +7,7 @@ pipeline{
  stages{
    stage("configure applications JR"){
      steps{
-       sh "echo hola mundo"
+       sh "echo 'hola mundo'"
      }
    }
  }
