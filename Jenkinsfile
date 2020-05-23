@@ -10,15 +10,9 @@ pipeline {
     stage("Configure application"){
       steps {
         sh "echo '1'"
-        sh "~/.rbenv/bin/rbenv"
-        // sh "gem install bundler"
-        // sh "bundle install"
-      }
-    }
-    stage("Test application"){
-      steps {
-        sh "echo '2'"
-        // sh "bundle exec rake"
+        sh "~/.rbenv/bin/rbenv global 2.7.0"
+        sh "gem install bundler"
+        sh "bundle install"
       }
     }
   }
