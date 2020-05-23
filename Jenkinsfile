@@ -7,11 +7,9 @@ pipeline {
   }
 
   stages {
-    stage("Setup for Ruby"){
-      sh 'eval "$(rbenv init -)"'
-    }
     stage("Configure application"){
       steps {
+        sh "eval '$(rbenv init -)'"
         sh "gem install bundler"
         sh "bundle install"
       }
