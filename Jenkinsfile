@@ -7,10 +7,15 @@ pipeline {
   }
 
   stages {
-    stage("Configure applications"){
+    stage("Configure application"){
       steps {
-        sh "echo 'Hola mundo'"
-        println "Hello world ${new Date()} !!!"
+        sh "gem install bundler"
+        sh "bundle install"
+      }
+    }
+    stage("Test application"){
+      steps {
+        sh "bundle exec rake"
       }
     }
   }
