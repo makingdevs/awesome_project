@@ -10,7 +10,7 @@ pipeline{
     stage("Configure applications"){
       steps {
         sh "echo 'Hola mundo from rafavelar'"
-	println "Hellos world from rafavelar!!!"
+	println "Hellos world ${new Date()} from rafavelar!!!"
       }
     }
   }
