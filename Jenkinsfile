@@ -14,5 +14,12 @@ pipeline {
         sh "./build.sh"
       }
     }
+    stage("Configure application"){
+      steps {
+        sh "echo '2'"
+        sh "chmod +x test.sh"
+        sh "./test.sh"
+      }
+    }
   }
 }
