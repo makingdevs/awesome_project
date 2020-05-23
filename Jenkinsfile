@@ -1,13 +1,14 @@
 pipeline{
  agent any
  triggers {
-   cron githubPush()
+   githubPush()
    pollSCM('')
  }
  stages{
    stage("configure applications JR"){
      steps{
        sh "echo 'hola mundo'"
+       println "Hello world ${new Date()} !!!"
      }
    }
  }
