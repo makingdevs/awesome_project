@@ -7,9 +7,10 @@ pipeline {
   }
 
   stages {
-    stage("Configure applications") {
+    stage("Configure applications"){
       steps {
         sh "echo 'Hola mundo'"
+        println "Hello world!!"
       }
     }
   }
